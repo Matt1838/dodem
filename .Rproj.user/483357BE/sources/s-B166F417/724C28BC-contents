@@ -1,0 +1,16 @@
+Package: mdode
+Title: Equivalent de la fonction t.test programmee par moi-meme
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mathieu",
+           family = "Dode",
+           role = c("aut", "cre"),
+           email = "mathieudode@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Equivalent de la fonction t.test de R programmee par moi-meme. Elle permet, a partir de 2 echantillons, apparies ou non, de variance égale ou non, de calculer la valeur de la statistique de test T, la p-valeur du test ainsi que le degres de liberte.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    stats
